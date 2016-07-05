@@ -23,10 +23,10 @@
 	.grid(sm, @phone-cell-padding);
 }
 
-	@media(min-width: @phone-width){
+	@media(min-width: @tablet-width){
 	.grid(md, @tablet-cell-padding);
 }
-	@media(min-width: @phone-width){
+	@media(min-width: @full-width){
 	.grid(lg, @full-cell-padding)
 }
 
@@ -38,11 +38,20 @@
 }
 
 @media(min-width: @tablet-width){
+	.offset-lg-2{
+	left: 100%/@columnCount * 2;
+}
+}
+
+
+@media(min-width: @full-width){
 .offset-lg-2{
 	left: 100%/@columnCount * 2;
 
 	}
+.offset-lg-0{
+	left: 0;
 }
-
+}
 
 

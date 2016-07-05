@@ -1,0 +1,51 @@
+.img-cover{
+	width: 100%/12*10;
+	margin: 0 auto;
+	padding-bottom: 16px;
+	margin: 0 20px 20px 20px;
+	@media screen and (min-width: @tablet-width){
+		width: 100%/12*3;
+		float: left;
+
+	}
+
+	@media screen and (min-width: @full-width){
+		width: 100%;
+	}
+
+	img{
+		width: 100%;
+	}
+}
+
+
+.clear{
+	clear: both;
+	display: block;
+		@media screen and (min-width: @phone-width){
+		padding-bottom: 40px;
+		}
+}
+.main-text{
+	font-family: @regular-fontFamily;
+	font-size: 36px;
+	position: relative;
+	padding-bottom: 18px;
+		@media screen and (min-width: @tablet-width){
+		padding-bottom: 40px;
+		left: -18%;
+		font-size: 24px;
+		}
+		@media screen and (min-width: @full-width){
+		padding-bottom: 40px;
+		left: 0;
+		font-size: 24px;
+		}
+
+
+}
+
+.text-offer{
+	text-align: justify;
+	padding-bottom: 21px;
+}
